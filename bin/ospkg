@@ -1,0 +1,90 @@
+#!/usr/bin/env perl -w
+
+use strict;
+use warnings;
+
+our $VERSION = '0.2.0'; # VERSION
+# ABSTRACT: OS Package Management System
+# PODNAME: ospkg
+
+use OS::Package::CLI;
+
+OS::Package::CLI->run() unless caller();
+
+1;
+
+__END__
+
+=pod
+
+=encoding UTF-8
+
+=head1 NAME
+
+ospkg - OS Package Management System
+
+=head1 VERSION
+
+version 0.2.0
+
+=head1 SYNOPSIS
+
+	$ ospkg [COMMAND] [OPTIONS] [APPLICATION]
+
+=head1 COMMAND
+
+=over
+
+=item B<init>
+
+Initialize ospkg.
+
+=item B<download>
+
+Download the distribution.
+
+=item B<build>
+
+Builds the distribution.
+
+=item B<clean>
+
+Removes build artifacts.
+
+=item B<prune>
+
+Prunes files and directories from build.
+
+=item B<version>
+
+Prints version and exits.
+
+=back
+
+=head1 OPTIONS
+
+=over
+
+=item B<-c|--config_dir> I<directory>
+
+Specify a directory where the configuration files are stored.  Default is ~/.ospkg/configs.
+
+=item B<-p|--pkg_dir> I<directory>
+
+Specify a directory where the packages files are stored.  Default is ~/.ospkg/packages.
+
+=back
+
+=head1 AUTHOR
+
+James F Wilkus <jfwilkus@mac.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2014 by James F Wilkus.
+
+This is free software, licensed under:
+
+  The (three-clause) BSD License
+
+=cut

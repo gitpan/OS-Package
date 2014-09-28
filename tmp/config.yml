@@ -1,0 +1,6 @@
+name: foo
+install: |
+  cd [% FAKEROOT %]
+  ls -l
+  touch /tmp/$(date +%Y%m%d%M%H%S).tmp || exit 1
+
