@@ -45,6 +45,7 @@ my %WriteMakefileArgs = (
     "HTTP::Tiny" => 0,
     "Hash::AsObject" => 0,
     "IPC::Cmd" => 0,
+    "Log::Dispatch" => 0,
     "Log::Log4perl" => 0,
     "Module::Load" => 0,
     "Moo" => 0,
@@ -65,7 +66,7 @@ my %WriteMakefileArgs = (
     "DateTime::Format::DateManip" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.2.3",
+  "VERSION" => "0.2.4",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -91,6 +92,7 @@ my %FallbackPrereqs = (
   "HTTP::Tiny" => 0,
   "Hash::AsObject" => 0,
   "IPC::Cmd" => 0,
+  "Log::Dispatch" => 0,
   "Log::Log4perl" => 0,
   "Module::Load" => 0,
   "Moo" => 0,

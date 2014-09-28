@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Factory;
 
 # ABSTRACT: Initialize an OS::Package object.
-our $VERSION = '0.2.3'; # VERSION
+our $VERSION = '0.2.4'; # VERSION
 
 use Config;
 use Env qw( $HOME );
@@ -175,7 +175,7 @@ OS::Package::Factory - Initialize an OS::Package object.
 
 =head1 VERSION
 
-version 0.2.3
+version 0.2.4
 
 =head1 METHODS
 

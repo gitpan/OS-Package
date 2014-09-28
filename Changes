@@ -1,5 +1,10 @@
 Revision history for OS-Package
 
+0.2.4 2014-09-28
+
+ - Fix sprintf error in SVR4 plugin [GH-2]
+ - Add missing dependency
+
 0.2.3 2014-09-27
 
  - POD updates

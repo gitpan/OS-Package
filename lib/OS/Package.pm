@@ -4,7 +4,7 @@ use warnings;
 package OS::Package;
 
 # ABSTRACT: OS Package Management System
-our $VERSION = '0.2.3'; # VERSION
+our $VERSION = '0.2.4'; # VERSION
 
 use Moo;
 use Path::Tiny;
@@ -17,7 +17,7 @@ with qw(
     OS::Package::Role::Prune
 );
 
-has [qw/name description prefix version/] =>
+has [qw/name description prefix/] =>
     ( is => 'rw', isa => Str, required => 1 );
 
 has [qw/config install build_id/] => ( is => 'rw', isa => Str );
@@ -66,7 +66,7 @@ OS::Package - OS Package Management System
 
 =head1 VERSION
 
-version 0.2.3
+version 0.2.4
 
 =head1 AUTHOR
 
@@ -81,6 +81,16 @@ This is free software, licensed under:
   The (three-clause) BSD License
 
 =head1 CHANGES
+
+=head2 Version 0.2.3 (2014-09-27)
+
+=over 4
+
+=item *
+
+POD updates
+
+=back
 
 =head2 Version 0.2.2 (2014-09-27)
 

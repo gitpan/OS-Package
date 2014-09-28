@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Role::Clean;
 
 # ABSTRACT: Provides the clean method.
-our $VERSION = '0.2.3'; # VERSION
+our $VERSION = '0.2.4'; # VERSION
 
 use Path::Tiny;
 use OS::Package::Log;
@@ -44,7 +44,7 @@ OS::Package::Role::Clean - Provides the clean method.
 
 =head1 VERSION
 
-version 0.2.3
+version 0.2.4
 
 =head1 METHODS
 

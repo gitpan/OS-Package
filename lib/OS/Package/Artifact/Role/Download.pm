@@ -10,7 +10,7 @@ use Path::Tiny;
 use Role::Tiny;
 
 # ABSTRACT: Provides the download method for Artifact role.
-our $VERSION = '0.2.3'; # VERSION
+our $VERSION = '0.2.4'; # VERSION
 
 sub download {
 
@@ -65,7 +65,7 @@ OS::Package::Artifact::Role::Download - Provides the download method for Artifac
 
 =head1 VERSION
 
-version 0.2.3
+version 0.2.4
 
 =head1 METHODS
 

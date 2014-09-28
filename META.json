@@ -50,6 +50,7 @@
             "HTTP::Tiny" : "0",
             "Hash::AsObject" : "0",
             "IPC::Cmd" : "0",
+            "Log::Dispatch" : "0",
             "Log::Log4perl" : "0",
             "Module::Load" : "0",
             "Moo" : "0",
@@ -87,6 +88,6 @@
          "web" : "https://github.com/jfwilkus/OS-Package"
       }
    },
-   "version" : "0.2.3"
+   "version" : "0.2.4"
 }
 
