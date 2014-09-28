@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Role::Build;
 
 # ABSTRACT: Default Abstract Description, Please Change.
-our $VERSION = '0.2.0'; # VERSION
+our $VERSION = '0.2.1'; # VERSION
 
 use OS::Package::Log;
 use File::Basename qw( basename dirname );
@@ -84,7 +84,7 @@ OS::Package::Role::Build - Default Abstract Description, Please Change.
 
 =head1 VERSION
 
-version 0.2.0
+version 0.2.1
 
 =head1 METHODS
 

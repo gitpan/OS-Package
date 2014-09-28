@@ -14,7 +14,7 @@ install_share dist => "share";
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "OS::Package Object",
+  "ABSTRACT" => "OS Package Management System",
   "AUTHOR" => "James F Wilkus <jfwilkus\@mac.com>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
@@ -65,7 +65,7 @@ my %WriteMakefileArgs = (
     "DateTime::Format::DateManip" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.2.0",
+  "VERSION" => "0.2.1",
   "test" => {
     "TESTS" => "t/*.t"
   }

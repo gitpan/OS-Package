@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::CLI;
 
 # ABSTRACT: OS::Package application initialization.
-our $VERSION = '0.2.0'; # VERSION
+our $VERSION = '0.2.1'; # VERSION
 
 use English qw(-no_match_vars);
 use Env qw( $HOME );
@@ -135,7 +135,7 @@ OS::Package::CLI - OS::Package application initialization.
 
 =head1 VERSION
 
-version 0.2.0
+version 0.2.1
 
 =head1 METHODS
 

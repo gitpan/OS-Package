@@ -8,7 +8,7 @@ use base qw(Exporter);
 use Log::Log4perl;
 
 # ABSTRACT: Load OS::Package LOGGER object.
-our $VERSION = '0.2.0'; # VERSION
+our $VERSION = '0.2.1'; # VERSION
 
 our @EXPORT = qw( $LOGGER );
 
@@ -30,7 +30,7 @@ OS::Package::Log - Load OS::Package LOGGER object.
 
 =head1 VERSION
 
-version 0.2.0
+version 0.2.1
 
 =head1 AUTHOR
 

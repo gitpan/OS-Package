@@ -2,12 +2,12 @@
 Changes
 LICENSE
 MANIFEST
+META.json
 META.yml
 Makefile.PL
 README
 README.md
 bin/ospkg
-build.log
 lib/OS/Package.pm
 lib/OS/Package/Application.pm
 lib/OS/Package/Artifact.pm

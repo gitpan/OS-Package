@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Maintainer;
 
 # ABSTRACT: Default Abstract Description, Please Change.
-our $VERSION = '0.2.0'; # VERSION
+our $VERSION = '0.2.1'; # VERSION
 
 use Moo;
 use Types::Standard qw( Str Enum );
@@ -50,7 +50,7 @@ OS::Package::Maintainer - Default Abstract Description, Please Change.
 
 =head1 VERSION
 
-version 0.2.0
+version 0.2.1
 
 =head1 METHODS
 

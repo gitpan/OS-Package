@@ -3,8 +3,8 @@ use warnings;
 
 package OS::Package;
 
-# ABSTRACT: OS::Package Object
-our $VERSION = '0.2.0'; # VERSION
+# ABSTRACT: OS Package Management System
+our $VERSION = '0.2.1'; # VERSION
 
 use Moo;
 use Path::Tiny;
@@ -62,11 +62,11 @@ __END__
 
 =head1 NAME
 
-OS::Package - OS::Package Object
+OS::Package - OS Package Management System
 
 =head1 VERSION
 
-version 0.2.0
+version 0.2.1
 
 =head1 AUTHOR
 
@@ -81,6 +81,24 @@ This is free software, licensed under:
   The (three-clause) BSD License
 
 =head1 CHANGES
+
+=head2 Version 0.2.0 (2014-09-27)
+
+=over 4
+
+=item *
+
+Add build tag option
+
+=item *
+
+Add init command
+
+=item *
+
+ospkg configuration stored in ~/.ospkg by default
+
+=back
 
 =head2 Version 0.1.0 (2014-09-11)
 
