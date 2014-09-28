@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Application;
 
 # ABSTRACT: OS::Package::Application object.
-our $VERSION = '0.2.1'; # VERSION
+our $VERSION = '0.2.2'; # VERSION
 
 use Moo;
 use Types::Standard qw( Str InstanceOf );
@@ -25,7 +25,7 @@ OS::Package::Application - OS::Package::Application object.
 
 =head1 VERSION
 
-version 0.2.1
+version 0.2.2
 
 =head1 METHODS
 
@@ -43,7 +43,7 @@ The location on the local file system where build is staged prior to packaging.
 
 =head1 AUTHOR
 
-James F Wilkus <jfwilkus@mac.com>
+James F Wilkus <jfwilkus@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

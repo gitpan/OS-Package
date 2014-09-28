@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::System;
 
 # ABSTRACT: Default Abstract Description, Please Change.
-our $VERSION = '0.2.1'; # VERSION
+our $VERSION = '0.2.2'; # VERSION
 
 use Moo;
 use Types::Standard qw( Str Enum );
@@ -48,7 +48,7 @@ OS::Package::System - Default Abstract Description, Please Change.
 
 =head1 VERSION
 
-version 0.2.1
+version 0.2.2
 
 =head1 METHODS
 
@@ -62,7 +62,7 @@ Host operating system
 
 =head1 AUTHOR
 
-James F Wilkus <jfwilkus@mac.com>
+James F Wilkus <jfwilkus@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

@@ -1,7 +1,7 @@
 ---
 abstract: 'OS Package Management System'
 author:
-  - 'James F Wilkus <jfwilkus@mac.com>'
+  - 'James F Wilkus <jfwilkus@cpan.org>'
 build_requires:
   DateTime::Format::DateManip: 0
   Test::More: 0
@@ -54,4 +54,4 @@ resources:
   bugtracker: https://github.com/jfwilkus/OS-Package/issues
   homepage: https://github.com/jfwilkus/OS-Package
   repository: https://github.com/jfwilkus/OS-Package.git
-version: 0.2.1
+version: 0.2.2

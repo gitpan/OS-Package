@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Factory;
 
 # ABSTRACT: Initialize an OS::Package object.
-our $VERSION = '0.2.1'; # VERSION
+our $VERSION = '0.2.2'; # VERSION
 
 use Config;
 use Env qw( $HOME );
@@ -175,7 +175,7 @@ OS::Package::Factory - Initialize an OS::Package object.
 
 =head1 VERSION
 
-version 0.2.1
+version 0.2.2
 
 =head1 METHODS
 
@@ -185,7 +185,7 @@ Attempts to find the application configuration file and returns an OS::Package::
 
 =head1 AUTHOR
 
-James F Wilkus <jfwilkus@mac.com>
+James F Wilkus <jfwilkus@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

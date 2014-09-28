@@ -4,7 +4,7 @@ use warnings;
 package OS::Package;
 
 # ABSTRACT: OS Package Management System
-our $VERSION = '0.2.1'; # VERSION
+our $VERSION = '0.2.2'; # VERSION
 
 use Moo;
 use Path::Tiny;
@@ -66,11 +66,11 @@ OS::Package - OS Package Management System
 
 =head1 VERSION
 
-version 0.2.1
+version 0.2.2
 
 =head1 AUTHOR
 
-James F Wilkus <jfwilkus@mac.com>
+James F Wilkus <jfwilkus@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
@@ -81,6 +81,8 @@ This is free software, licensed under:
   The (three-clause) BSD License
 
 =head1 CHANGES
+
+=head2 Version 0.2.1 (2014-09-27)
 
 =head2 Version 0.2.0 (2014-09-27)
 

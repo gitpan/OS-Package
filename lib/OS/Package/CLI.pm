@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::CLI;
 
 # ABSTRACT: OS::Package application initialization.
-our $VERSION = '0.2.1'; # VERSION
+our $VERSION = '0.2.2'; # VERSION
 
 use English qw(-no_match_vars);
 use Env qw( $HOME );
@@ -135,7 +135,7 @@ OS::Package::CLI - OS::Package application initialization.
 
 =head1 VERSION
 
-version 0.2.1
+version 0.2.2
 
 =head1 METHODS
 
@@ -145,7 +145,7 @@ Processes command line arguments and runs the application.
 
 =head1 AUTHOR
 
-James F Wilkus <jfwilkus@mac.com>
+James F Wilkus <jfwilkus@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

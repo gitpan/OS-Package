@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Role::Build;
 
 # ABSTRACT: Default Abstract Description, Please Change.
-our $VERSION = '0.2.1'; # VERSION
+our $VERSION = '0.2.2'; # VERSION
 
 use OS::Package::Log;
 use File::Basename qw( basename dirname );
@@ -84,7 +84,7 @@ OS::Package::Role::Build - Default Abstract Description, Please Change.
 
 =head1 VERSION
 
-version 0.2.1
+version 0.2.2
 
 =head1 METHODS
 
@@ -94,7 +94,7 @@ Provides method to build the application.
 
 =head1 AUTHOR
 
-James F Wilkus <jfwilkus@mac.com>
+James F Wilkus <jfwilkus@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

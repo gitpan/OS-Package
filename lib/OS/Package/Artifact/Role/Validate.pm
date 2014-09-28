@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Artifact::Role::Validate;
 
 # ABSTRACT: Provides the validation methods for Artifact role.
-our $VERSION = '0.2.1'; # VERSION
+our $VERSION = '0.2.2'; # VERSION
 
 use Digest::MD5;
 use Digest::SHA;
@@ -80,7 +80,7 @@ OS::Package::Artifact::Role::Validate - Provides the validation methods for Arti
 
 =head1 VERSION
 
-version 0.2.1
+version 0.2.2
 
 =head1 METHODS
 
@@ -100,7 +100,7 @@ file.
 
 =head1 AUTHOR
 
-James F Wilkus <jfwilkus@mac.com>
+James F Wilkus <jfwilkus@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

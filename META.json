@@ -1,7 +1,7 @@
 {
    "abstract" : "OS Package Management System",
    "author" : [
-      "James F Wilkus <jfwilkus@mac.com>"
+      "James F Wilkus <jfwilkus@cpan.org>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060",
@@ -87,6 +87,6 @@
          "web" : "https://github.com/jfwilkus/OS-Package"
       }
    },
-   "version" : "0.2.1"
+   "version" : "0.2.2"
 }
 
