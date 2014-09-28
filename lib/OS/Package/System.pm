@@ -3,8 +3,8 @@ use warnings;
 
 package OS::Package::System;
 
-# ABSTRACT: Default Abstract Description, Please Change.
-our $VERSION = '0.2.2'; # VERSION
+# ABSTRACT: Determine OS version and type.
+our $VERSION = '0.2.3'; # VERSION
 
 use Moo;
 use Types::Standard qw( Str Enum );
@@ -44,21 +44,21 @@ __END__
 
 =head1 NAME
 
-OS::Package::System - Default Abstract Description, Please Change.
+OS::Package::System - Determine OS version and type.
 
 =head1 VERSION
 
-version 0.2.2
+version 0.2.3
 
 =head1 METHODS
 
 =head2 os
 
-Host operating system
+Host operating system.
 
 =head2 type
 
-=head2 bits
+Host type.
 
 =head1 AUTHOR
 

@@ -3,8 +3,8 @@ use warnings;
 
 package OS::Package::Role::Prune;
 
-# ABSTRACT: Default Abstract Description, Please Change.
-our $VERSION = '0.2.2'; # VERSION
+# ABSTRACT: Provides prune method for OS::Package object.
+our $VERSION = '0.2.3'; # VERSION
 
 use OS::Package::Log;
 use Path::Tiny;
@@ -66,17 +66,17 @@ __END__
 
 =head1 NAME
 
-OS::Package::Role::Prune - Default Abstract Description, Please Change.
+OS::Package::Role::Prune - Provides prune method for OS::Package object.
 
 =head1 VERSION
 
-version 0.2.2
+version 0.2.3
 
 =head1 METHODS
 
 =head2 prune
 
-Attempts to clean workdir and fakeroot directories.
+Deletes files and directories from the fakeroot.
 
 =head1 AUTHOR
 

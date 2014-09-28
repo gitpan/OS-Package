@@ -65,7 +65,7 @@ my %WriteMakefileArgs = (
     "DateTime::Format::DateManip" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.2.2",
+  "VERSION" => "0.2.3",
   "test" => {
     "TESTS" => "t/*.t"
   }

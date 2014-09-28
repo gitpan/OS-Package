@@ -3,8 +3,8 @@ use warnings;
 
 package OS::Package::Maintainer;
 
-# ABSTRACT: Default Abstract Description, Please Change.
-our $VERSION = '0.2.2'; # VERSION
+# ABSTRACT: OS::Package::Maintainer object.
+our $VERSION = '0.2.3'; # VERSION
 
 use Moo;
 use Types::Standard qw( Str Enum );
@@ -32,6 +32,10 @@ sub by_line {
         $by_line .= sprintf ' <%s>', $self->email;
     }
 
+    if ( defined $self->phone ) {
+        $by_line .= sprintf ' %s', $self->phone;
+    }
+
     return $by_line;
 
 }
@@ -46,17 +50,37 @@ __END__
 
 =head1 NAME
 
-OS::Package::Maintainer - Default Abstract Description, Please Change.
+OS::Package::Maintainer - OS::Package::Maintainer object.
 
 =head1 VERSION
 
-version 0.2.2
+version 0.2.3
 
 =head1 METHODS
 
+=head2 author
+
+Name of the maintainer (required).
+
+=head2 nickname
+
+Nickname of the maintainer.
+
+=head2 email
+
+The email address of the maintainer.
+
+=head2 phone
+
+Phone number of the maintainer.
+
+=head2 company
+
+The company of the maintainer.
+
 =head2 by_line
 
-Returns string "Author (nickname) <email>".
+Returns string "Author (nickname) <email> phone".
 
 =head1 AUTHOR
 

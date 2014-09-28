@@ -3,8 +3,8 @@ use warnings;
 
 package OS::Package::Role::Build;
 
-# ABSTRACT: Default Abstract Description, Please Change.
-our $VERSION = '0.2.2'; # VERSION
+# ABSTRACT: Provides build method for OS::Package object.
+our $VERSION = '0.2.3'; # VERSION
 
 use OS::Package::Log;
 use File::Basename qw( basename dirname );
@@ -80,11 +80,11 @@ __END__
 
 =head1 NAME
 
-OS::Package::Role::Build - Default Abstract Description, Please Change.
+OS::Package::Role::Build - Provides build method for OS::Package object.
 
 =head1 VERSION
 
-version 0.2.2
+version 0.2.3
 
 =head1 METHODS
 

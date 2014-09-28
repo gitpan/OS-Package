@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-our $VERSION = '0.2.2'; # VERSION
+our $VERSION = '0.2.3'; # VERSION
 # ABSTRACT: OS Package Management System
 # PODNAME: ospkg
 
@@ -25,7 +25,7 @@ ospkg - OS Package Management System
 
 =head1 VERSION
 
-version 0.2.2
+version 0.2.3
 
 =head1 SYNOPSIS
 

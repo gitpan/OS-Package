@@ -27,6 +27,8 @@ ospkg
 os
 workdir
 init
+github
+metadata
 James
 Wilkus
 jfwilkus

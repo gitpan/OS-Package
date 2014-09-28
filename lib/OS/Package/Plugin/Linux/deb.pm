@@ -3,8 +3,8 @@ use warnings;
 
 package OS::Package::Plugin::Linux::deb;
 
-# ABSTRACT: Default Abstract Description, Please Change.
-our $VERSION = '0.2.2'; # VERSION
+# ABSTRACT: Debian package plugin.
+our $VERSION = '0.2.3'; # VERSION
 
 use Moo;
 
@@ -20,11 +20,11 @@ __END__
 
 =head1 NAME
 
-OS::Package::Plugin::Linux::deb - Default Abstract Description, Please Change.
+OS::Package::Plugin::Linux::deb - Debian package plugin.
 
 =head1 VERSION
 
-version 0.2.2
+version 0.2.3
 
 =head1 AUTHOR
 

@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Artifact;
 
 # ABSTRACT: OS::Package::Artifact object.
-our $VERSION = '0.2.2'; # VERSION
+our $VERSION = '0.2.3'; # VERSION
 
 use Moo;
 use Types::Standard qw( Str InstanceOf );
@@ -45,7 +45,7 @@ OS::Package::Artifact - OS::Package::Artifact object.
 
 =head1 VERSION
 
-version 0.2.2
+version 0.2.3
 
 =head1 METHODS
 

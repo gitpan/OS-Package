@@ -3,8 +3,8 @@ use warnings;
 
 package OS::Package::Plugin::Solaris::SVR4;
 
-# ABSTRACT: Default Abstract Description, Please Change.
-our $VERSION = '0.2.2'; # VERSION
+# ABSTRACT: Solaris 10 package plugin.
+our $VERSION = '0.2.3'; # VERSION
 
 use Cwd;
 use Moo;
@@ -262,11 +262,11 @@ __END__
 
 =head1 NAME
 
-OS::Package::Plugin::Solaris::SVR4 - Default Abstract Description, Please Change.
+OS::Package::Plugin::Solaris::SVR4 - Solaris 10 package plugin.
 
 =head1 VERSION
 
-version 0.2.2
+version 0.2.3
 
 =head1 METHODS
 

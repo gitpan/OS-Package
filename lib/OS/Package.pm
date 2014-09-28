@@ -4,7 +4,7 @@ use warnings;
 package OS::Package;
 
 # ABSTRACT: OS Package Management System
-our $VERSION = '0.2.2'; # VERSION
+our $VERSION = '0.2.3'; # VERSION
 
 use Moo;
 use Path::Tiny;
@@ -66,7 +66,7 @@ OS::Package - OS Package Management System
 
 =head1 VERSION
 
-version 0.2.2
+version 0.2.3
 
 =head1 AUTHOR
 
@@ -82,7 +82,25 @@ This is free software, licensed under:
 
 =head1 CHANGES
 
+=head2 Version 0.2.2 (2014-09-27)
+
+=over 4
+
+=item *
+
+update email address
+
+=back
+
 =head2 Version 0.2.1 (2014-09-27)
+
+=over 4
+
+=item *
+
+Add github metadata
+
+=back
 
 =head2 Version 0.2.0 (2014-09-27)
 
