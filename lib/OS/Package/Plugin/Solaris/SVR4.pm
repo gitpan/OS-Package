@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Plugin::Solaris::SVR4;
 
 # ABSTRACT: Solaris 10 package plugin.
-our $VERSION = '0.2.4'; # VERSION
+our $VERSION = '0.2.5'; # VERSION
 
 use Cwd;
 use Moo;
@@ -276,7 +276,7 @@ OS::Package::Plugin::Solaris::SVR4 - Solaris 10 package plugin.
 
 =head1 VERSION
 
-version 0.2.4
+version 0.2.5
 
 =head1 METHODS
 

@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::System;
 
 # ABSTRACT: Determine OS version and type.
-our $VERSION = '0.2.4'; # VERSION
+our $VERSION = '0.2.5'; # VERSION
 
 use Moo;
 use Types::Standard qw( Str Enum );
@@ -48,7 +48,7 @@ OS::Package::System - Determine OS version and type.
 
 =head1 VERSION
 
-version 0.2.4
+version 0.2.5
 
 =head1 METHODS
 

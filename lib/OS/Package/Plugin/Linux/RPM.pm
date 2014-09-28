@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Plugin::Linux::RPM;
 
 # ABSTRACT: RPM package plugin.
-our $VERSION = '0.2.4'; # VERSION
+our $VERSION = '0.2.5'; # VERSION
 
 use Moo;
 
@@ -24,7 +24,7 @@ OS::Package::Plugin::Linux::RPM - RPM package plugin.
 
 =head1 VERSION
 
-version 0.2.4
+version 0.2.5
 
 =head1 AUTHOR
 

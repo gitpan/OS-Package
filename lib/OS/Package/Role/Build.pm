@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Role::Build;
 
 # ABSTRACT: Provides build method for OS::Package object.
-our $VERSION = '0.2.4'; # VERSION
+our $VERSION = '0.2.5'; # VERSION
 
 use OS::Package::Log;
 use File::Basename qw( basename dirname );
@@ -84,7 +84,7 @@ OS::Package::Role::Build - Provides build method for OS::Package object.
 
 =head1 VERSION
 
-version 0.2.4
+version 0.2.5
 
 =head1 METHODS
 

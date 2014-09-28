@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Role::Prune;
 
 # ABSTRACT: Provides prune method for OS::Package object.
-our $VERSION = '0.2.4'; # VERSION
+our $VERSION = '0.2.5'; # VERSION
 
 use OS::Package::Log;
 use Path::Tiny;
@@ -70,7 +70,7 @@ OS::Package::Role::Prune - Provides prune method for OS::Package object.
 
 =head1 VERSION
 
-version 0.2.4
+version 0.2.5
 
 =head1 METHODS
 

@@ -12,7 +12,7 @@ use OS::Package::Log;
 use Role::Tiny;
 
 # ABSTRACT: Provides the extract method for Artifact role.
-our $VERSION = '0.2.4'; # VERSION
+our $VERSION = '0.2.5'; # VERSION
 
 local $Archive::Extract::PREFER_BIN = 1;
 
@@ -69,7 +69,7 @@ OS::Package::Artifact::Role::Extract - Provides the extract method for Artifact 
 
 =head1 VERSION
 
-version 0.2.4
+version 0.2.5
 
 =head1 METHODS
 

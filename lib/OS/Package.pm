@@ -4,7 +4,7 @@ use warnings;
 package OS::Package;
 
 # ABSTRACT: OS Package Management System
-our $VERSION = '0.2.4'; # VERSION
+our $VERSION = '0.2.5'; # VERSION
 
 use Moo;
 use Path::Tiny;
@@ -66,7 +66,7 @@ OS::Package - OS Package Management System
 
 =head1 VERSION
 
-version 0.2.4
+version 0.2.5
 
 =head1 AUTHOR
 
@@ -81,6 +81,20 @@ This is free software, licensed under:
   The (three-clause) BSD License
 
 =head1 CHANGES
+
+=head2 Version 0.2.4 (2014-09-28)
+
+=over 4
+
+=item *
+
+Fix sprintf error in SVR4 plugin [GH-2]
+
+=item *
+
+Add missing dependency
+
+=back
 
 =head2 Version 0.2.3 (2014-09-27)
 
