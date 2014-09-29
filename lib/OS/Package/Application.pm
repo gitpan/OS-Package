@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Application;
 
 # ABSTRACT: OS::Package::Application object.
-our $VERSION = '0.2.5'; # VERSION
+our $VERSION = '0.2.6'; # VERSION
 
 use Moo;
 use Types::Standard qw( Str InstanceOf );
@@ -25,7 +25,7 @@ OS::Package::Application - OS::Package::Application object.
 
 =head1 VERSION
 
-version 0.2.5
+version 0.2.6
 
 =head1 METHODS
 

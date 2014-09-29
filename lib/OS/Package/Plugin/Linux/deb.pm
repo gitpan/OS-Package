@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Plugin::Linux::deb;
 
 # ABSTRACT: Debian package plugin.
-our $VERSION = '0.2.5'; # VERSION
+our $VERSION = '0.2.6'; # VERSION
 
 use Moo;
 
@@ -24,7 +24,7 @@ OS::Package::Plugin::Linux::deb - Debian package plugin.
 
 =head1 VERSION
 
-version 0.2.5
+version 0.2.6
 
 =head1 AUTHOR
 

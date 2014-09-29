@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Init;
 
 # ABSTRACT: Initializes ospkg
-our $VERSION = '0.2.5'; # VERSION
+our $VERSION = '0.2.6'; # VERSION
 
 use base qw(Exporter);
 use Path::Tiny;
@@ -54,7 +54,7 @@ OS::Package::Init - Initializes ospkg
 
 =head1 VERSION
 
-version 0.2.5
+version 0.2.6
 
 =head1 METHODS
 

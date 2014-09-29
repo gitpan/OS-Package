@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::CLI;
 
 # ABSTRACT: OS::Package application initialization.
-our $VERSION = '0.2.5'; # VERSION
+our $VERSION = '0.2.6'; # VERSION
 
 use English qw(-no_match_vars);
 use Env qw( $HOME );
@@ -82,7 +82,7 @@ sub run {
 
     my $pkg = vivify($app);
 
-    $LOGGER->info( sprintf 'processing: %s %s', $pkg->name, $pkg->version );
+    $LOGGER->info( sprintf 'processing: %s %s', $pkg->name, $pkg->application->version );
 
     if ( $COMMAND eq 'download' ) {
         $pkg->artifact->download;
@@ -135,7 +135,7 @@ OS::Package::CLI - OS::Package application initialization.
 
 =head1 VERSION
 
-version 0.2.5
+version 0.2.6
 
 =head1 METHODS
 

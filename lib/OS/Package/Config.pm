@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Config;
 
 # ABSTRACT: Load OS::Package configuration object.
-our $VERSION = '0.2.5'; # VERSION
+our $VERSION = '0.2.6'; # VERSION
 
 use base qw(Exporter);
 use Env qw( $HOME );
@@ -49,7 +49,7 @@ OS::Package::Config - Load OS::Package configuration object.
 
 =head1 VERSION
 
-version 0.2.5
+version 0.2.6
 
 =head1 AUTHOR
 

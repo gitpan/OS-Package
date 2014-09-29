@@ -1,5 +1,9 @@
 Revision history for OS-Package
 
+0.2.6 2014-09-29
+
+ - Fix log entry
+
 0.2.5 2014-09-28
 
  - POD update

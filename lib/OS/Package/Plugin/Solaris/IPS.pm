@@ -4,7 +4,7 @@ use warnings;
 package OS::Package::Plugin::Solaris::IPS;
 
 # ABSTRACT: Solaris 11 package plugin.
-our $VERSION = '0.2.5'; # VERSION
+our $VERSION = '0.2.6'; # VERSION
 
 use Moo;
 
@@ -24,7 +24,7 @@ OS::Package::Plugin::Solaris::IPS - Solaris 11 package plugin.
 
 =head1 VERSION
 
-version 0.2.5
+version 0.2.6
 
 =head1 AUTHOR
 
